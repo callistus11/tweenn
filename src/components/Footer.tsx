@@ -92,7 +92,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="text-white/40 text-xs font-600 uppercase tracking-wider mb-0.5">Address</p>
-              <p className="text-white text-sm font-600">1140 Harrison St, San Francisco, CA 94103</p>
+              <p className="text-white text-sm font-600">Accra, Ghana</p>
             </div>
           </div>
         </div>
@@ -104,11 +104,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-3">
             <AppImage
-              src="https://callistus11.github.io/tech/wp-content/uploads/2025/02/logo.svg"
+              src="/assets/images/logo2.jpg"
               alt="Tween Technologies logo"
               width={130}
               height={34}
-              className="h-8 w-auto brightness-0 invert mb-5"
+              className="h-8 w-auto object-contain mb-5"
             />
             <p className="text-white/50 text-sm leading-relaxed mb-6">
               Engineering digital solutions that scale businesses globally.

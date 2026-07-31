@@ -11,7 +11,7 @@ const testimonials = [
   role: 'CEO',
   company: 'TechVentures MX',
   quote: 'Tweentech has been instrumental in our growth. Their team took the time to truly understand our needs and helped us eliminate inefficiencies across our entire technology stack.',
-  avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&auto=format&q=80',
+  avatar: '/assets/images/Eli1.jpg',
   avatarAlt: 'Professional headshot of a man in business casual attire, warm background',
   rating: 5
 },
@@ -21,7 +21,7 @@ const testimonials = [
   role: 'CEO & President',
   company: 'Swirl Inc.',
   quote: 'Partnering with Tweentech was a game-changer for us. They took the time to understand our challenges and helped us streamline our operations for measurable success.',
-  avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&auto=format&q=80',
+  avatar: '/assets/images/Eli2.jpg',
   avatarAlt: 'Professional headshot of a woman with a warm smile, light natural background',
   rating: 5
 },
@@ -31,7 +31,7 @@ const testimonials = [
   role: 'CEO & President',
   company: 'H&N Group',
   quote: 'I hired Tweentech for a small project and was very happy. They didn\'t treat me like a "small project." I was very satisfied and would recommend them to any organization.',
-  avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&auto=format&q=80',
+  avatar: '/assets/images/tween3.jpg',
   avatarAlt: 'Professional headshot of a woman in business attire, neutral light background',
   rating: 5
 }];

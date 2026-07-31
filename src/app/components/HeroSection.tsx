@@ -193,7 +193,7 @@ export default function HeroSection() {
                 {/* Core */}
                 <div className="absolute inset-16 rounded-full bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/15 flex items-center justify-center">
                   <AppImage
-                    src="https://callistus11.github.io/tech/wp-content/uploads/2025/02/logo.svg"
+                    src="/assets/images/logo1.jpg"
                     alt="Tween Technologies logo mark"
                     width={80}
                     height={80}

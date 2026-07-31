@@ -9,28 +9,28 @@ const team = [
 {
   name: 'Bright Callistus',
   role: 'Vice President',
-  img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&auto=format&q=80',
+  img: '/assets/images/twwen.jpg',
   alt: 'Professional headshot of a man in a dark suit, neutral studio background, confident expression',
   linkedin: '#'
 },
 {
   name: 'Klara Berger',
   role: 'Senior Advisor Associate',
-  img: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&auto=format&q=80',
+  img: '/assets/images/Eli1.jpg',
   alt: 'Professional headshot of a woman with light background, business attire, warm expression',
   linkedin: '#'
 },
 {
   name: 'Rebbeka Hof',
   role: 'Vice President',
-  img: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&auto=format&q=80',
+  img: '/assets/images/Eli2.jpg',
   alt: 'Professional headshot of a woman in business attire, clean light background, composed expression',
   linkedin: '#'
 },
 {
   name: 'Donald Ferreira',
   role: 'Managing Director',
-  img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format&q=80',
+  img: '/assets/images/tween3.jpg',
   alt: 'Professional headshot of a man in formal attire, neutral background, authoritative expression',
   linkedin: '#'
 }];

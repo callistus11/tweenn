@@ -53,12 +53,12 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group flex-shrink-0">
           <AppImage
-            src="https://callistus11.github.io/tech/wp-content/uploads/2025/02/logo.svg"
-            alt="Tween Technologies logo — blue angular bracket mark"
+            src="/assets/images/logo1.jpg"
+            alt="Tween Technologies logo"
             width={140}
             height={36}
             priority
-            className="h-8 w-auto"
+            className="h-8 w-auto object-contain"
           />
         </Link>
 

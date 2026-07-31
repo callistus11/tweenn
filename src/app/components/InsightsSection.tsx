@@ -13,7 +13,7 @@ const articles = [
   excerpt: 'Discover how aligning technology investment cycles with business maturity stages unlocks compounding returns on digital infrastructure.',
   date: 'July 14, 2026',
   readTime: '6 min read',
-  img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&auto=format&q=80',
+  img: '/assets/images/twwen.jpg',
   imgAlt: 'Financial charts and technology strategy documents on a bright, clean desk with natural window light, airy office environment'
 },
 {
@@ -23,7 +23,7 @@ const articles = [
   excerpt: 'Our annual report on building diverse engineering teams and why inclusive organizations ship better software, faster.',
   date: 'June 28, 2026',
   readTime: '8 min read',
-  img: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&auto=format&q=80',
+  img: '/assets/images/tween4.jpg',
   imgAlt: 'Diverse team of professionals collaborating around a table in a bright, modern office with large windows and neutral tones'
 },
 {
@@ -33,7 +33,7 @@ const articles = [
   excerpt: 'Practical strategies for CIOs and CTOs to protect technology roadmaps and deliver more value per dollar in a high-cost environment.',
   date: 'June 10, 2026',
   readTime: '5 min read',
-  img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&auto=format&q=80',
+  img: '/assets/images/tween3.jpg',
   imgAlt: 'Clean white desk with laptop, financial documents, and a cup of coffee in a bright minimalist office with white walls'
 }];
 
