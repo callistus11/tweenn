@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import IndustriesHero from '@/app/industries/components/IndustriesHero';
 import IndustriesGrid from '@/app/industries/components/IndustriesGrid';
-import CertifiedPartner from '@/app/components/CertifiedPartner';
 import TestimonialsSection from '@/app/components/TestimonialsSection';
 
 export const metadata = {
@@ -17,7 +16,6 @@ export default function IndustriesPage() {
       <Header />
       <IndustriesHero />
       <IndustriesGrid />
-      <CertifiedPartner />
       <TestimonialsSection />
       <Footer />
     </main>

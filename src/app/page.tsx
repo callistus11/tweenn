@@ -7,7 +7,6 @@ import ServicesSection from '@/app/components/ServicesSection';
 import AboutSection from '@/app/components/AboutSection';
 import TestimonialsSection from '@/app/components/TestimonialsSection';
 import InsightsSection from '@/app/components/InsightsSection';
-import CertifiedPartner from '@/app/components/CertifiedPartner';
 import TechStack from '@/app/components/TechStack';
 
 export default function HomePage() {
@@ -18,7 +17,6 @@ export default function HomePage() {
       <StatsSection />
       <ServicesSection />
       <AboutSection />
-      <CertifiedPartner />
       <TestimonialsSection />
       <TechStack />
       <InsightsSection />
