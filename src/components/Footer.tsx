@@ -19,7 +19,6 @@ const footerLinks = {
     { label: 'IT Consulting', href: '/services' },
   ],
   resources: [
-    { label: 'Industries', href: '/industries' },
     { label: 'FAQ', href: '/contact#faq' },
     { label: 'Terms & Conditions', href: '/terms' },
     { label: 'Privacy Policy', href: '/privacy' },

@@ -2,9 +2,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AboutHero from '@/app/about/components/AboutHero';
-import MissionVision from '@/app/about/components/MissionVision';
 import ValuesSection from '@/app/components/ValuesSection';
-import TeamSection from '@/app/components/TeamSection';
 import StatsSection from '@/app/components/StatsSection';
 
 export const metadata = {
@@ -18,9 +16,7 @@ export default function AboutPage() {
       <Header />
       <AboutHero />
       <StatsSection />
-      <MissionVision />
       <ValuesSection />
-      <TeamSection />
       <Footer />
     </main>
   );

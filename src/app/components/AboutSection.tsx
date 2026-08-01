@@ -89,10 +89,19 @@ export default function AboutSection() {
                 Who We Are
               </span>
               <h2 className="text-section-title text-foreground mb-5">
-                Founded by Industry Trailblazers Who Continue to Lead the Way
+                Tween Technologies
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                We&apos;re a staff of smart, friendly professionals dedicated to anticipating your needs and making your life easier. Built on deep expertise and a commitment to transparency, we partner with organizations to engineer technology that drives measurable results.
+                Tween Technologies is a technology company focused on building practical, high-impact digital solutions for modern businesses. We work at the intersection of software development, data, and product design to turn ideas into systems that deliver real results.
+              </p>
+              <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+                Our approach is simple: build what works, keep it scalable, and make it useful. Every product we create is grounded in real-world needs, not just technical ambition.
+              </p>
+              <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+                What sets us apart is how we think long-term. Alongside building products, we are actively developing a growing network of trained engineers and problem-solvers through our ecosystem. This allows us to deliver not just solutions, but the people and capability to sustain them.
+              </p>
+              <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+                We are not just service providers. We are builders, partners, and enablers of growth.
               </p>
             </div>
 

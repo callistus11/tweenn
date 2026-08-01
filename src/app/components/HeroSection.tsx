@@ -74,12 +74,20 @@ export default function HeroSection() {
       ref={heroRef}
       className="relative min-h-screen flex items-center pt-28 pb-20 overflow-hidden">
       
-      {/* Background grid */}
-      <div className="absolute inset-0 hero-grid-bg opacity-40 pointer-events-none" />
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary/30 pointer-events-none" />
 
-      {/* Blob backgrounds */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 blob-primary pointer-events-none" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 blob-accent pointer-events-none" />
+      {/* Organic shapes */}
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-primary/5 to-accent/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/5 to-primary/5 rounded-full blur-3xl pointer-events-none" />
+
+      {/* Floating particles */}
+      <div className="absolute top-[20%] left-[10%] w-2 h-2 bg-primary/20 rounded-full animate-pulse pointer-events-none" />
+      <div className="absolute top-[30%] right-[15%] w-3 h-3 bg-accent/20 rounded-full animate-pulse pointer-events-none" style={{ animationDelay: '1s' }} />
+      <div className="absolute bottom-[25%] left-[20%] w-2 h-2 bg-primary/15 rounded-full animate-pulse pointer-events-none" style={{ animationDelay: '2s' }} />
+      <div className="absolute bottom-[35%] right-[25%] w-4 h-4 bg-accent/15 rounded-full animate-pulse pointer-events-none" style={{ animationDelay: '0.5s' }} />
+      <div className="absolute top-[60%] left-[5%] w-2 h-2 bg-primary/10 rounded-full animate-pulse pointer-events-none" style={{ animationDelay: '1.5s' }} />
+      <div className="absolute top-[15%] right-[30%] w-3 h-3 bg-accent/10 rounded-full animate-pulse pointer-events-none" style={{ animationDelay: '2.5s' }} />
 
       {/* Gradient overlay bottom */}
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background to-transparent pointer-events-none" />
