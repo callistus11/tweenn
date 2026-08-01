@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactHero from '@/app/contact/components/ContactHero';
 import ContactForm from '@/app/contact/components/ContactForm';
-import FAQSection from '@/app/components/FAQSection';
 
 export const metadata = {
   title: 'Contact Us | Tween Technologies',
@@ -16,7 +15,6 @@ export default function ContactPage() {
       <Header />
       <ContactHero />
       <ContactForm />
-      <FAQSection />
       <Footer />
     </main>
   );

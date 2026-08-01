@@ -48,10 +48,10 @@ export default function Header() {
           <AppImage
             src="/assets/images/logo1.jpg"
             alt="Tween Technologies logo"
-            width={140}
-            height={36}
+            width={200}
+            height={52}
             priority
-            className="h-8 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
         </Link>
 

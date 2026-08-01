@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HeroSection from '@/app/components/HeroSection';
-import StatsSection from '@/app/components/StatsSection';
 import ServicesSection from '@/app/components/ServicesSection';
 import AboutSection from '@/app/components/AboutSection';
 import TestimonialsSection from '@/app/components/TestimonialsSection';
@@ -13,7 +12,6 @@ export default function HomePage() {
     <main className="bg-background overflow-x-hidden">
       <Header />
       <HeroSection />
-      <StatsSection />
       <ServicesSection />
       <AboutSection />
       <TestimonialsSection />

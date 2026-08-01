@@ -10,10 +10,10 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: 200, suffix: '+', label: 'Projects Delivered', description: 'Across 15+ industries' },
-  { value: 150, suffix: '+', label: 'Global Clients', description: 'From startups to enterprises' },
-  { value: 10, suffix: '+', label: 'Years Experience', description: 'Founded by industry trailblazers' },
-  { value: 98, suffix: '%', label: 'Success Rate', description: 'Client satisfaction score' },
+  { value: 50, suffix: '+', label: 'Projects Delivered', description: 'Across various industries' },
+  { value: 30, suffix: '+', label: 'Global Clients', description: 'From startups to enterprises' },
+  { value: 5, suffix: '+', label: 'Years Experience', description: 'Founded by industry trailblazers' },
+  { value: 95, suffix: '%', label: 'Success Rate', description: 'Client satisfaction score' },
 ];
 
 function CountUp({ target, suffix, active }: { target: number; suffix: string; active: boolean }) {

@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AboutHero from '@/app/about/components/AboutHero';
 import ValuesSection from '@/app/components/ValuesSection';
-import StatsSection from '@/app/components/StatsSection';
 
 export const metadata = {
   title: 'About Us | Tween Technologies',
@@ -15,7 +14,6 @@ export default function AboutPage() {
     <main className="bg-background overflow-x-hidden">
       <Header />
       <AboutHero />
-      <StatsSection />
       <ValuesSection />
       <Footer />
     </main>

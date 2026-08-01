@@ -4,7 +4,6 @@ import Footer from '@/components/Footer';
 import ServicesHero from '@/app/services/components/ServicesHero';
 import ServicesGrid from '@/app/services/components/ServicesGrid';
 import ProcessSection from '@/app/services/components/ProcessSection';
-import TechStack from '@/app/components/TechStack';
 
 export const metadata = {
   title: 'Services | Tween Technologies',
@@ -18,7 +17,6 @@ export default function ServicesPage() {
       <ServicesHero />
       <ServicesGrid />
       <ProcessSection />
-      <TechStack />
       <Footer />
     </main>
   );

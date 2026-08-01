@@ -115,7 +115,7 @@ export default function AboutHero() {
                 </div>
                 <div>
                   <p className="text-foreground text-xs font-700">Industry Leaders</p>
-                  <p className="text-muted-foreground text-[10px] font-500">10+ Years Delivering</p>
+                  <p className="text-muted-foreground text-[10px] font-500">Trusted Partner</p>
                 </div>
               </div>
               <div className="absolute -z-10 -bottom-12 -left-12 w-64 h-64 blob-primary" />

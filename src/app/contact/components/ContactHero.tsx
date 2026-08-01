@@ -7,7 +7,7 @@ const contactMethods = [
   {
     icon: 'PhoneIcon',
     label: 'Phone',
-    value: '+1(122) 800 88 08',
+    value: '+233 240 547 782',
     sub: 'Mon–Fri, 8:30am – 5:30pm',
     color: 'text-primary',
     bg: 'bg-primary/8',
@@ -15,7 +15,7 @@ const contactMethods = [
   {
     icon: 'EnvelopeIcon',
     label: 'Email',
-    value: 'info@tweentech.com',
+    value: 'admin@tweentechnologies.com',
     sub: 'We reply within 24 hours',
     color: 'text-accent',
     bg: 'bg-accent/8',
@@ -23,8 +23,8 @@ const contactMethods = [
   {
     icon: 'MapPinIcon',
     label: 'Office',
-    value: '1140 Harrison St',
-    sub: 'San Francisco, CA 94103',
+    value: 'Accra, Ghana',
+    sub: '',
     color: 'text-success',
     bg: 'bg-success/8',
   },

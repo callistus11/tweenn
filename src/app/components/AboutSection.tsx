@@ -6,7 +6,7 @@ import AppImage from '@/components/ui/AppImage';
 import Icon from '@/components/ui/AppIcon';
 
 const features = [
-{ icon: 'AcademicCapIcon', label: 'Experienced Engineers', desc: 'Senior engineers with 10+ years across enterprise domains' },
+{ icon: 'AcademicCapIcon', label: 'Experienced Engineers', desc: 'Senior engineers with deep expertise across enterprise domains' },
 { icon: 'BoltIcon', label: 'Modern Technologies', desc: 'Cloud-native, AI-ready, and built for scale' },
 { icon: 'ShieldCheckIcon', label: 'Secure by Design', desc: 'Security embedded at every layer of the stack' },
 { icon: 'CubeTransparentIcon', label: 'Scalable Architecture', desc: 'Systems that grow with your business without re-engineering' },
@@ -73,7 +73,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <p className="text-foreground text-xs font-700">Industry Leaders</p>
-                  <p className="text-muted-foreground text-[10px] font-500">10+ Years Delivering</p>
+                  <p className="text-muted-foreground text-[10px] font-500">Trusted Partner</p>
                 </div>
               </div>
 

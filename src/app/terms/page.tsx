@@ -90,7 +90,7 @@ export default function TermsPage() {
             <section className="mb-10">
               <h2 className="text-2xl font-700 text-foreground mb-4">Contact Us</h2>
               <p className="text-muted-foreground leading-relaxed">
-                For questions about these Terms & Conditions, please contact us at info@tweentech.com or call +233 50 137 2510.
+                For questions about these Terms & Conditions, please contact us at admin@tweentechnologies.com or call +233 240 547 782.
               </p>
             </section>
           </div>

@@ -28,7 +28,7 @@ const timeline = [
   { year: '2018', event: 'Launched our AI & Automation practice, serving Fortune 500 clients.' },
   { year: '2020', event: 'Opened offices in Lagos and London, growing to 80+ engineers globally.' },
   { year: '2022', event: 'Achieved SOC2 Type II certification and ISO 27001 compliance.' },
-  { year: '2024', event: 'Surpassed 200 projects delivered across 15+ industries worldwide.' },
+  { year: '2024', event: 'Delivered projects across multiple industries worldwide.' },
 ];
 
 export default function MissionVision() {

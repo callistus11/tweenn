@@ -72,15 +72,6 @@ export default function TestimonialsSection() {
               Client Experiences That Speak for Themselves
             </h2>
           </div>
-          <div className="flex items-center gap-2 flex-shrink-0">
-            <div className="flex">
-              {[...Array(5)].map((_, i) =>
-              <Icon key={i} name="StarIcon" size={18} variant="solid" className="text-yellow-400" />
-              )}
-            </div>
-            <span className="text-foreground font-700 ml-1">4.9</span>
-            <span className="text-muted-foreground text-sm ml-1">Google Reviews</span>
-          </div>
         </div>
 
         {/* Testimonial display */}
