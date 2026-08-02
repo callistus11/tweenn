@@ -46,24 +46,24 @@ export default function AboutSection() {
               {/* Primary image */}
               <div className="rounded-3xl overflow-hidden shadow-card border border-border">
                 <AppImage
-                  src="https://callistus11.github.io/tech/wp-content/uploads/2025/02/new/_MG_3908.jpg"
+                  src="/assets/images/tween3.jpg"
                   alt="Tween Technologies team working in a bright, modern office environment with natural light"
                   width={560}
                   height={420}
                   className="w-full h-72 object-cover"
                   priority />
-                
+
               </div>
 
               {/* Secondary image — offset */}
               <div className="absolute -bottom-8 -right-6 w-48 h-36 rounded-2xl overflow-hidden shadow-card-hover border-2 border-white hidden sm:block">
                 <AppImage
-                  src="https://callistus11.github.io/tech/wp-content/uploads/2025/02/new/_MG_3925.jpg"
+                  src="/assets/images/tween4.jpg"
                   alt="Tween Technologies engineers collaborating at workstations in well-lit office space"
                   width={192}
                   height={144}
                   className="w-full h-full object-cover" />
-                
+
               </div>
 
               {/* Floating badge */}

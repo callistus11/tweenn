@@ -10,6 +10,7 @@ const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Services', href: '/services' },
   { label: 'About', href: '/about' },
+  { label: 'Schedule', href: '/schedule' },
   { label: 'Contact', href: '/contact' },
 ];
 
@@ -77,7 +78,7 @@ export default function Header() {
         {/* CTAs */}
         <div className="hidden lg:flex items-center gap-3">
           <Link
-            href="/contact"
+            href="/schedule"
             className={`px-4 py-2 text-sm font-600 rounded-lg transition-all duration-200 ${
               scrolled
                 ? 'text-muted-foreground hover:text-foreground'
@@ -87,7 +88,7 @@ export default function Header() {
             Schedule a Call
           </Link>
           <Link
-            href="/contact"
+            href="/schedule"
             className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-700 rounded-xl hover:bg-primary/90 transition-all duration-200 magnetic-btn shadow-sm"
           >
             Let&apos;s Get Started
@@ -125,14 +126,14 @@ export default function Header() {
             ))}
             <div className="border-t border-border mt-2 pt-4 flex flex-col gap-2">
               <Link
-                href="/contact"
+                href="/schedule"
                 onClick={() => setMobileOpen(false)}
                 className="px-4 py-3 text-sm font-600 text-foreground hover:text-primary rounded-lg transition-colors min-h-[44px] flex items-center"
               >
                 Schedule a Call
               </Link>
               <Link
-                href="/contact"
+                href="/schedule"
                 onClick={() => setMobileOpen(false)}
                 className="px-5 py-3 bg-primary text-primary-foreground text-sm font-700 rounded-xl hover:bg-primary/90 transition-all text-center min-h-[44px] flex items-center justify-center"
               >
