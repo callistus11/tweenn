@@ -42,30 +42,30 @@ export default function HeroSection() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-hero-xl text-foreground mb-6">
-              <span className="line-reveal">
+            <h1 className="text-hero-xl text-foreground mb-6 leading-tight">
+              <span className="line-reveal block mb-2">
                 <span
                   ref={(el) => {lineRefs.current[0] = el;}}
                   style={{ transform: 'translateY(105%)' }}>
 
-                  Engineering
+                  Engineering intelligent Systems.
                 </span>
               </span>
-              <span className="line-reveal">
+              <span className="line-reveal block mb-2">
                 <span
                   ref={(el) => {lineRefs.current[1] = el;}}
                   style={{ transform: 'translateY(105%)' }}>
 
-                  Digital Solutions
+                  Building Talent.
                 </span>
               </span>
-              <span className="line-reveal">
+              <span className="line-reveal block">
                 <span
                   ref={(el) => {lineRefs.current[2] = el;}}
                   className="gradient-text"
                   style={{ transform: 'translateY(105%)' }}>
 
-                  That Scale.
+                  Driving Real-world Impact
                 </span>
               </span>
             </h1>
@@ -74,7 +74,7 @@ export default function HeroSection() {
               className="text-muted-foreground text-lg leading-relaxed mb-10 max-w-lg"
               style={{ opacity: 0, animation: 'fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.7s forwards' }}>
 
-              We&apos;re a staff of smart, friendly professionals dedicated to anticipating your needs and building technology businesses can trust.
+              We combine technology, innovation, and talent development to build solutions that create opportunities and solve real-world problems
             </p>
 
             <div
@@ -85,7 +85,7 @@ export default function HeroSection() {
                 href="/schedule"
                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-primary text-primary-foreground font-700 rounded-xl hover:bg-primary/90 transition-all duration-200 magnetic-btn shadow-sm text-sm">
 
-                Let&apos;s Get Started
+                Work With Us
                 <Icon name="ArrowRightIcon" size={16} />
               </Link>
               <Link
@@ -123,7 +123,7 @@ export default function HeroSection() {
                   </div>
                   <div>
                     <p className="text-foreground font-700 text-sm">Trusted Partner</p>
-                    <p className="text-muted-foreground text-xs">200+ Projects Delivered</p>
+                    <p className="text-muted-foreground text-xs"> Projects Delivered</p>
                   </div>
                 </div>
               </div>
