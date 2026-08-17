@@ -15,7 +15,7 @@ const contactMethods = [
   {
     icon: 'EnvelopeIcon',
     label: 'Email',
-    value: 'admin@tweentechnologies.com',
+    value: 'admin@tweentech.com',
     sub: 'We reply within 24 hours',
     color: 'text-accent',
     bg: 'bg-accent/8',
