@@ -88,10 +88,12 @@ export default function Header() {
             Schedule a Call
           </Link>
           <Link
-            href="/schedule"
+            href="https://tweenlearning.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-700 rounded-xl hover:bg-primary/90 transition-all duration-200 magnetic-btn shadow-sm"
           >
-            Let&apos;s Get Started
+            Take a Course
           </Link>
         </div>
 
@@ -133,11 +135,13 @@ export default function Header() {
                 Schedule a Call
               </Link>
               <Link
-                href="/schedule"
+                href="https://tweenlearning.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="px-5 py-3 bg-primary text-primary-foreground text-sm font-700 rounded-xl hover:bg-primary/90 transition-all text-center min-h-[44px] flex items-center justify-center"
               >
-                Let&apos;s Get Started
+                Take a Course
               </Link>
             </div>
           </div>
