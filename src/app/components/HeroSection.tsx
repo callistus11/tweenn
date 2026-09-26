@@ -153,7 +153,7 @@ export default function HeroSection() {
             </div>
             <div className="flex justify-center">
               <a
-                href="https://tweenlearning.vercel.app/"
+                href="https://app.tweentechnologies.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-700 rounded-xl hover:bg-primary/90 transition-all duration-200 text-base shadow-md">
